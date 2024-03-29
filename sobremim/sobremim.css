@@ -1,0 +1,27 @@
+body {
+    color: white;
+    background-color: #A6A6A6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;  /*nesse codigo configura a pagina toda com cores e a fonte usada*/
+    
+}
+body img {
+    width: 450px;
+    height: 400px;
+    border:2px solid black;
+    display: block;
+    margin: auto; /*esse codigo configura a imagem e a forma como ela é apresentada*/
+}
+
+body header h1{
+    text-align: center;
+    text-decoration: underline; /*configuração do titulo da pagina*/
+    
+}
+
+footer {
+    text-align: center;
+} /*configuração do roda pé*/
+
+.container {
+    padding: 0px 50px;
+} /*configuração do alinhamento das bordas da pagina toda, realizado para o texto não figar muito "grudado" na lateral da tela*/

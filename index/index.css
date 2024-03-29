@@ -1,0 +1,58 @@
+body {
+    color: white;
+    background-color: #A6A6A6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ; /* Organização cores de pagina e texto */
+}
+
+ul {
+    display: flex; 
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center; 
+    padding: 16px;
+
+} /* apresentação de links internos para navegar entre as paginas "sobre mim" "cursos e formações" e "contato" alinhado um ao lado do outro, ao passar o mouse o texto fica preto*/
+
+a {
+    color:white;
+    text-decoration: none;
+
+} /* cor da palavra  */
+
+img {
+width: 170  px;
+height: 170px;
+border-radius: 50%;
+border:1px solid black;
+
+
+}/* alinhamento das bordas da imagem e da borda */
+
+.center{
+    text-align: center;
+} /* criado uma classe para alinhar a imagem ao centro */
+
+.contato{
+    
+        color: white;
+        background-color: #A6A6A6;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+header h1{
+    text-align: center;
+    text-decoration: underline;
+}/* configuração o titulo com underline e centralizado*/
+
+footer {
+    text-align: center;
+} /* roda pé da pagina */
+
+.container {
+    padding:  0px 50px;
+} /* alinhamento do texto para não ficar muito na borda da tela*/
+
+nav a:hover {
+    color:black;
+} /* codigo que deixa o texto na cor preta ao passar por cima da palavra, facilita a identificaçao de link "clicavel"*/

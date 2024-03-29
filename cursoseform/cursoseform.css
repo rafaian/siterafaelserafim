@@ -1,0 +1,21 @@
+header {text-decoration: underline;
+
+}/*underline do titulo*/
+
+
+body {
+    color: white;
+    background-color: #A6A6A6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+} /*alinhamento da pagina e cor geral*/
+
+
+footer {
+    text-align: center;
+} /*alinhamento centralizado do roda pé*/
+
+.container {
+    padding: 0px 50px;
+
+}/*alinhamento para o texto não ficar muito proximo da lateral da tela*/
